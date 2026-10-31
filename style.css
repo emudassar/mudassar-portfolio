@@ -302,28 +302,10 @@ img {
   text-align: center;
 }
 
-/* ==================== ABOUT ==================== */
-.about {
-  padding: 120px 0;
-  background-color: var(--bg-alt);
-}
-
-.about-text {
-  max-width: 800px;
-}
-
-.about-text p {
-  font-size: 1.05rem;
-  color: var(--text-body);
-}
-
-.about-text strong {
-  color: var(--text-heading);
-}
-
 /* ==================== SKILLS ==================== */
 .skills {
   padding: 120px 0;
+  background-color: var(--bg-alt);
 }
 
 .skills-grid {
@@ -360,7 +342,6 @@ img {
 /* ==================== PROJECTS ==================== */
 .projects {
   padding: 120px 0;
-  background-color: var(--bg-alt);
 }
 
 .projects-grid {
@@ -414,6 +395,7 @@ img {
 /* ==================== CONTACT ==================== */
 .contact {
   padding: 120px 0;
+  background-color: var(--bg-alt);
 }
 
 .contact-grid {
@@ -548,7 +530,6 @@ img {
     height: 220px;
   }
 
-  .about,
   .skills,
   .projects,
   .contact {
@@ -624,7 +605,6 @@ img {
     grid-template-columns: 1fr;
   }
 
-  .about,
   .skills,
   .projects,
   .contact {
